@@ -13,7 +13,7 @@ st.set_page_config(page_title="AI Learning Assistant", layout="centered")
 st.title("📚 AI Learning Assistant for Family")
 
 # Select user
-user = st.selectbox("Pilih Pengguna:", ["Ayah", "Ibu", "Anak"])
+user = st.selectbox("Pilih Pengguna:", ["Papi", "Mami", "Rasya", "Razka")
 
 # Language selection
 language = st.radio("Bahasa yang digunakan:", ["Indonesia", "English"])
